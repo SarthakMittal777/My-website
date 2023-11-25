@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 25 Nov 2023 18:21:08 at https://html.designingmedia.com/folioflix/?storefront=envato-elements +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://html.designingmedia.com/folioflix/?storefront=envato-elements -O1 "C:\Users\mitta\Downloads\Responsive Personal Portfolio" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:21:09	Error: 	"Internal Server Error" (500) after 2 retries at link https://html.designingmedia.com/robots.txt (from primary/primary)
+18:25:04	Warning: 	File not parsed, looks like binary: https://html.designingmedia.com/folioflix/assets/image/portfolio-model-img1.jfif
+18:25:04	Warning: 	File not parsed, looks like binary: https://html.designingmedia.com/folioflix/assets/image/portfolio-model-img2.jfif
+18:25:04	Warning: 	File not parsed, looks like binary: https://html.designingmedia.com/folioflix/assets/image/portfolio-model-img3.jfif
+18:25:04	Warning: 	File not parsed, looks like binary: https://html.designingmedia.com/folioflix/assets/image/portfolio-model-img4.jfif
+18:25:04	Warning: 	File not parsed, looks like binary: https://html.designingmedia.com/folioflix/assets/image/portfolio-model-img5.jfif
+18:25:04	Warning: 	Retry after error 500 (Internal Server Error) at link https://html.designingmedia.com/folioflix/assets/image/cv-img.png (from https://html.designingmedia.com/folioflix/?storefront=envato-elements)
+18:25:04	Warning: 	Retry after error 500 (Internal Server Error) at link https://html.designingmedia.com/folioflix/test-image.png (from https://html.designingmedia.com/folioflix/?storefront=envato-elements)
+18:25:05	Warning: 	Retry after error 500 (Internal Server Error) at link https://html.designingmedia.com/folioflix/assets/image/cv-img.png (from https://html.designingmedia.com/folioflix/?storefront=envato-elements)
+18:25:05	Warning: 	Retry after error 500 () at link https://html.designingmedia.com/folioflix/test-image.png (from https://html.designingmedia.com/folioflix/?storefront=envato-elements)
+18:25:05	Error: 	"Internal Server Error" (500) after 2 retries at link https://html.designingmedia.com/folioflix/assets/image/cv-img.png (from https://html.designingmedia.com/folioflix/?storefront=envato-elements)
+18:25:05	Error: 	"" (500) after 2 retries at link https://html.designingmedia.com/folioflix/test-image.png (from https://html.designingmedia.com/folioflix/?storefront=envato-elements)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 57 seconds : 69 links scanned, 62 files written (110986493 bytes overall) [110774303 bytes received at 467402 bytes/sec], 295279 bytes transferred using HTTP compression in 3 files, ratio 21%, 3.9 requests per connection
+(3 errors, 9 warnings, 0 messages)
