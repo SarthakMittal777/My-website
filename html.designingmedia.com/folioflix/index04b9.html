@@ -653,7 +653,76 @@
          </div>
       </section>
 
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <div class="container">
+            
+                  <div class="col-lg-6 d-flex align-items-left">
+                     <div class="skill-right-con wow slideInDown" >
+                  
+                        <h2>Certifications
+                        </h2>
+                        <p>I am happy to say that i never paid for a single certification, i believe that knowladge is abundunt and could be grabbed from any source. certifications are just proof of that knowladge. 
+                        </p>
+                        <p>I will never stop learning 
+                        </p>
+                        <div class="generic-btn download-bnt">
+                           <a href="#" id="downloadImg" onclick="certificate()">View my certificate Gallery</a>                  
+                        </div>
+                     </div>
+                  </div>
 
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- skill section -->
+
+
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <div class="container">
+            
+                  <div class="col-lg-6 d-flex align-items-left">
+                     <div class="skill-right-con wow slideInDown" >
+                  
+                        <h2>Events
+                        </h2>
+                        <p>I am always open for events and college visits, feel free to invite me, would happy to contribute
+                        </p>
+                        <p>Your soft skills worth more then your hard skills in business
+                        </p>
+                        <div class="generic-btn download-bnt">
+                           <a href="#" id="downloadImg" onclick="event()">View my Event Gallery</a>                  
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <div class="container">
+            
+                  <div class="col-lg-6 d-flex align-items-left">
+                     <div class="skill-right-con wow slideInDown" >
+                  
+                        <h2>Blogs
+                        </h2>
+                        <p>I always belive in sharing knowladge to society, i love sharing experience, expertice and knowladge so that i can contribute in society.
+                        </p>
+                        <p>Writing blog give you clarity in your goals.
+                        </p>
+                        <div class="generic-btn download-bnt">
+                           <a href="#" id="downloadImg" onclick="blog()">View my Event Gallery</a>                  
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
 
       <!-- portfolio section -->
       <!-- tastimonials section -->
@@ -1673,6 +1742,36 @@ link.addEventListener('click', function() {
        }
        function contribute() {
          source = 'https://topmate.io/sarthak_mittal_ceo';
+       const fileName = 'test-image.html';
+       var el = document.createElement("a");
+       el.setAttribute("href", source);
+       el.setAttribute("download", fileName);
+       document.body.appendChild(el);
+       el.click();
+       el.remove();
+       }
+       function blog() {
+         source = 'https://sarthakmittalnmims.blogspot.com/';
+       const fileName = 'test-image.html';
+       var el = document.createElement("a");
+       el.setAttribute("href", source);
+       el.setAttribute("download", fileName);
+       document.body.appendChild(el);
+       el.click();
+       el.remove();
+       }
+       function certificate() {
+         source = 'https://photos.google.com/share/AF1QipOQvnsL3nNgD-vAytfHRJbKcx299pINmu-0xtPyCe2ain0uQJvhTbKHpqkYfkPILg?key=eWZ6bkxoUC0zVTZlZkJQWlFya1pLOGlvX1ROeFNR';
+       const fileName = 'test-image.html';
+       var el = document.createElement("a");
+       el.setAttribute("href", source);
+       el.setAttribute("download", fileName);
+       document.body.appendChild(el);
+       el.click();
+       el.remove();
+       }
+       function event() {
+         source = 'https://photos.google.com/share/AF1QipPIQ0Sq5d97SlookVkFhxg_GJDi2Mbrg89c5dh_qnwnGMGAzokqPuWKFTs4RdMXkw?key=dC04U2JkN2NSYkdobnlJZldmN1QxTUxIV2tsbFhR';
        const fileName = 'test-image.html';
        var el = document.createElement("a");
        el.setAttribute("href", source);
