@@ -39,7 +39,7 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                            <ul class="navbar-nav ml-auto">
                               <li class="nav-item active pl-0">
-                                 <a class="nav-link p-0 is-active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                                 <a class="nav-link p-0 is-active" href="index.html"><span class="sr-only">(current)</span></a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link p-0" href="#service-con">Services</a>
@@ -878,6 +878,28 @@
                         </p>
                         <div class="generic-btn download-bnt">
                            <a href="#" id="downloadImg" onclick="blog()">My Blogs</a>                  
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <div class="container">
+            
+                  <div class="col-lg-6 d-flex align-items-left">
+                     <div class="skill-right-con wow slideInDown" >
+                  
+                        <h2>Youtube Channel
+                        </h2>
+                        <p>I love to share my experience and knowladge through my youtube channel, i am always open for interacting with new people.
+                        </p>
+                        <p>My Youtube channel helps me in personal development.
+                        </p>
+                        <div class="generic-btn download-bnt">
+                           <a href="#" id="downloadImg" onclick="yt()">My Channel</a>                  
                         </div>
                      </div>
                   </div>
@@ -1999,6 +2021,16 @@ link.addEventListener('click', function() {
        }
        function blog() {
          source = 'https://medium.com/@mittalsarthak863';
+       const fileName = 'test-image.html';
+       var el = document.createElement("a");
+       el.setAttribute("href", source);
+       el.setAttribute("download", fileName);
+       document.body.appendChild(el);
+       el.click();
+       el.remove();
+       }
+       function yt() {
+         source = 'https://www.youtube.com/channel/UCGdo68uG9NE59bPW7WatPgA';
        const fileName = 'test-image.html';
        var el = document.createElement("a");
        el.setAttribute("href", source);
