@@ -886,6 +886,51 @@
             </div>
          </div>
       </section>
+      
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <div class="container">
+            
+                  <div class="col-lg-6 d-flex align-items-left">
+                     <div class="skill-right-con wow slideInDown" >
+                  
+                        <h2>LinkedIn Content Creator
+                        </h2>
+                        <p>I love to showcase and connect with industry leaders and experts, i am always open for new connections.
+                        </p>
+                        <p>LinkedIn helps me in personal branding, business development and networking.
+                        </p>
+                        <div class="generic-btn download-bnt">
+                           <a href="#" id="downloadImg" onclick="linkedin()">Checkout My LinkedIn</a>                  
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <div class="container">
+            
+                  <div class="col-lg-6 d-flex align-items-left">
+                     <div class="skill-right-con wow slideInDown" >
+                  
+                        <h2>Article/Newsletter
+                        </h2>
+                        <p>I love to write Articles/Newsletter and Showcase my knowladge and experience.
+                        </p>
+                        <p>In this way i can solve problems of society and help them to grow.
+                        </p>
+                        <div class="generic-btn download-bnt">
+                           <a href="#" id="downloadImg" onclick="newsletter()">Checkout My LinkedIn</a>                  
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
       <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
          <div class="container">
             
@@ -2021,6 +2066,26 @@ link.addEventListener('click', function() {
        }
        function blog() {
          source = 'https://medium.com/@mittalsarthak863';
+       const fileName = 'test-image.html';
+       var el = document.createElement("a");
+       el.setAttribute("href", source);
+       el.setAttribute("download", fileName);
+       document.body.appendChild(el);
+       el.click();
+       el.remove();
+       }
+       function linkedin() {
+         source = 'https://www.linkedin.com/in/sarthak-microsoft/';
+       const fileName = 'test-image.html';
+       var el = document.createElement("a");
+       el.setAttribute("href", source);
+       el.setAttribute("download", fileName);
+       document.body.appendChild(el);
+       el.click();
+       el.remove();
+       }
+       function newsletter() {
+         source = 'https://www.linkedin.com/newsletters/7139835586474934272/';
        const fileName = 'test-image.html';
        var el = document.createElement("a");
        el.setAttribute("href", source);
